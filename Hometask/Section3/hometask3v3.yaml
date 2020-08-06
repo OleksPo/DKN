@@ -60,7 +60,7 @@ kind: Role
 metadata:
   name: getpods
 rules:
-- apiGroups: [" "]
+- apiGroups: [""]
   resources:
   - pods
   verbs: ["get", "list","watch"]
