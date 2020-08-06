@@ -91,7 +91,7 @@ metadata:
    app: db
   name: db
 spec:
-  replicas: 1  # amound of db in cluster
+  replicas: 1  # amount of db in cluster
   strategy:
     type: Recreate
   selector:
@@ -136,6 +136,7 @@ metadata:
   labels:
    app: webapp
   name: webapp
+  namespace: student21
 spec:
   replicas: 3
   strategy:
